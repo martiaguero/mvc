@@ -11,6 +11,5 @@ app.listen(port, () => {
 });
 
 app.use(express.static('public'));
-
-app.use('/', rutasAbout);
 app.use('/', rutasMain);
+app.use('/', rutasAbout);
